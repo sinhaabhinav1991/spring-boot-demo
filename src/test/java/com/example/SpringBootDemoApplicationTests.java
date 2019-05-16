@@ -16,7 +16,7 @@ public class SpringBootDemoApplicationTests {
 	@Test
 	public void controllerTest() {
 		HelloController helloController=new HelloController();
-		Assert.assertEquals( helloController.index(),"Greetings from Spring Boot on Azure!!!");
+		Assert.assertEquals( helloController.index(),"Greetings from Spring Boot on Azure!!");
 	}
 
 }
